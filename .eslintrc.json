@@ -25,6 +25,7 @@
         "prettier"
     ],
     "rules": {
+      "camelcase": "off",
       "prettier/prettier": "error",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
@@ -32,6 +33,7 @@
       "import/prefer-default-export": "off",
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": "warn",
+      "@typescript-eslint/camelcase": "off",
       "@typescript-eslint/explicit-module-boundary-types": "off",
       "import/extensions": [
         "error",
